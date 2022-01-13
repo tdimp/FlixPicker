@@ -1,3 +1,11 @@
-#watched {
+body {
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+watched {
     align-items: right;
+}
+
+h1 {
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    color: blue;
 }
