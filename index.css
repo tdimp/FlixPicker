@@ -9,3 +9,21 @@ h1 {
     font-family: "Comic Sans MS", "Comic Sans", cursive;
     color: blue;
 }
+
+.card {
+    text-align: center;
+    border: grey solid 1px;
+    padding: 1rem;
+    width: 10rem;
+    height: 15rem;
+    display: inline-grid;
+    margin: 1rem 2rem;
+    box-shadow: 3px 4px #1417ac;
+    flex-direction: column;
+  }
+
+  .poster {
+      justify-self: center;
+      height: 8rem;
+      width: auto;
+  }
