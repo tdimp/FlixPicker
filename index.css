@@ -28,6 +28,10 @@ h3 {
     flex-direction: column;
   }
 
+  .card:hover {
+      background-color: rgb(176, 195, 255);
+  }
+
   .poster {
       justify-self: center;
       object-fit: cover;
@@ -36,7 +40,7 @@ h3 {
       width: auto;
   }
 
-  .button {
+  button {
       background-color: rgb(122, 6, 6);
       border: grey solid 1px;
       color: white;
@@ -44,4 +48,10 @@ h3 {
       justify-self: center;
       width: 6rem;
       height: 2rem;
+  }
+
+  button:hover {
+    background-color: whitesmoke;
+    border: rgb(122, 6, 6) solid 1px;
+    color: rgb(122, 6, 6);
   }
