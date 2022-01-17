@@ -1,6 +1,7 @@
 document.addEventListener("DOMContentLoaded", () => {
-   renderMovies(); //this is broken!!!
-    
+   renderMovies();
+    let queue = document.getElementById('queue')
+    let watched = document.getElementById('watched')
     const movieSubmit = document.querySelector('#search');
     movieSubmit.addEventListener("submit", (e) => {
         e.preventDefault();
@@ -18,7 +19,8 @@ document.addEventListener("DOMContentLoaded", () => {
         e.target.reset();
     })
     
-    document.addEventListener('click', handleWatch)
+    queue.addEventListener('click', handleWatch)
+    watched.addEventListener('click', handleUnwatch)
 })
 
 
@@ -43,7 +45,7 @@ function handleSearch(movie) {
 
 function handleWatch(e) {
     // use .appendTo(#watched) or .prependTo(#watched)
-    if (e.target.className === "watch-button") {
+    if (e.target.innerText === "Watched?") {
         let watchButton = e.target;
         document.getElementById("watched").appendChild(watchButton.parentElement);
         watchButton.className = "watched"
@@ -51,7 +53,7 @@ function handleWatch(e) {
     } 
 }
 
-/* function handleUnwatch(e) {
+function handleUnwatch(e) {
     if (e.target.className === "watched") {
         let queueButton = e.target;
         document.getElementById("queue").appendChild(queueButton.parentElement);
@@ -59,7 +61,7 @@ function handleWatch(e) {
         queueButton.innerText = "Watched?" 
         console.log(queueButton)
     }
-}  */
+}
 
 function renderMovies() {
     fetch('http://localhost:3000/queue', {
@@ -80,5 +82,4 @@ function postMovie(movieObj) {
         body:JSON.stringify(movieObj)
     })
     .then(res => res.json())
-    .then(movieObj => console.log(movieObj))
 }

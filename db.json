@@ -81,6 +81,129 @@
       "Website": "N/A",
       "Response": "True",
       "id": 2
+    },
+    {
+      "Title": "Dumb and Dumber",
+      "Year": "1994",
+      "Rated": "PG-13",
+      "Released": "16 Dec 1994",
+      "Runtime": "107 min",
+      "Genre": "Comedy",
+      "Director": "Peter Farrelly, Bobby Farrelly",
+      "Writer": "Peter Farrelly, Bennett Yellin, Bobby Farrelly",
+      "Actors": "Jim Carrey, Jeff Daniels, Lauren Holly",
+      "Plot": "After a woman leaves a briefcase at the airport terminal, a dumb limo driver and his dumber friend set out on a hilarious cross-country road trip to Aspen to return it.",
+      "Language": "English, Swedish, German",
+      "Country": "United States",
+      "Awards": "5 wins & 3 nominations",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BZDQwMjNiMTQtY2UwYy00NjhiLTk0ZWEtZWM5ZWMzNGFjNTVkXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "7.3/10"
+        },
+        {
+          "Source": "Rotten Tomatoes",
+          "Value": "68%"
+        },
+        {
+          "Source": "Metacritic",
+          "Value": "41/100"
+        }
+      ],
+      "Metascore": "41",
+      "imdbRating": "7.3",
+      "imdbVotes": "370,412",
+      "imdbID": "tt0109686",
+      "Type": "movie",
+      "DVD": "02 Oct 2001",
+      "BoxOffice": "$127,175,374",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True",
+      "id": 3
+    },
+    {
+      "Title": "The Big Lebowski",
+      "Year": "1998",
+      "Rated": "R",
+      "Released": "06 Mar 1998",
+      "Runtime": "117 min",
+      "Genre": "Comedy, Crime, Sport",
+      "Director": "Joel Coen, Ethan Coen",
+      "Writer": "Ethan Coen, Joel Coen",
+      "Actors": "Jeff Bridges, John Goodman, Julianne Moore",
+      "Plot": "Ultimate L.A. slacker Jeff \"The Dude\" Lebowski, mistaken for a millionaire of the same name, seeks restitution for a rug ruined by debt collectors, enlisting his bowling buddies for help while trying to find the millionaire's missing",
+      "Language": "English, German, Hebrew, Spanish",
+      "Country": "United States, United Kingdom",
+      "Awards": "5 wins & 18 nominations",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMTQ0NjUzMDMyOF5BMl5BanBnXkFtZTgwODA1OTU0MDE@._V1_SX300.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "8.1/10"
+        },
+        {
+          "Source": "Rotten Tomatoes",
+          "Value": "83%"
+        },
+        {
+          "Source": "Metacritic",
+          "Value": "71/100"
+        }
+      ],
+      "Metascore": "71",
+      "imdbRating": "8.1",
+      "imdbVotes": "777,923",
+      "imdbID": "tt0118715",
+      "Type": "movie",
+      "DVD": "18 Oct 2005",
+      "BoxOffice": "$18,034,458",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True",
+      "id": 4
+    },
+    {
+      "Title": "Wayne's World",
+      "Year": "1992",
+      "Rated": "PG-13",
+      "Released": "14 Feb 1992",
+      "Runtime": "94 min",
+      "Genre": "Comedy, Music",
+      "Director": "Penelope Spheeris",
+      "Writer": "Mike Myers, Bonnie Turner, Terry Turner",
+      "Actors": "Mike Myers, Dana Carvey, Rob Lowe",
+      "Plot": "Two slacker friends try to promote their public-access cable show.",
+      "Language": "English, Cantonese",
+      "Country": "United States",
+      "Awards": "4 wins & 5 nominations",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMDAyNDY3MjUtYmJjYS00Zjc5LTlhM2MtNzgzYjNlOWVkZjkzL2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SX300.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "7.0/10"
+        },
+        {
+          "Source": "Rotten Tomatoes",
+          "Value": "78%"
+        },
+        {
+          "Source": "Metacritic",
+          "Value": "57/100"
+        }
+      ],
+      "Metascore": "57",
+      "imdbRating": "7.0",
+      "imdbVotes": "152,100",
+      "imdbID": "tt0105793",
+      "Type": "movie",
+      "DVD": "10 Jul 2001",
+      "BoxOffice": "$121,697,323",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True",
+      "id": 5
     }
   ],
   "watched": []
