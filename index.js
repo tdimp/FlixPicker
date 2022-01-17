@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
-   // renderMovies(); //this is broken!!!
+   renderMovies(); //this is broken!!!
     
     const movieSubmit = document.querySelector('#search');
     movieSubmit.addEventListener("submit", (e) => {
@@ -67,7 +67,7 @@ function renderMovies() {
     })
     .then(res => res.json())
     .then(data => {
-        handleSearch(data)
+        data.forEach(handleSearch)
     })
 }
 
