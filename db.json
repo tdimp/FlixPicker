@@ -1,44 +1,45 @@
 {
-  "queue": [
+  "movies": [
     {
-      "Title": "Star Wars: Episode IV - A New Hope",
-      "Year": "1977",
-      "Rated": "PG",
-      "Released": "25 May 1977",
-      "Runtime": "121 min",
-      "Genre": "Action, Adventure, Fantasy",
-      "Director": "George Lucas",
-      "Writer": "George Lucas",
-      "Actors": "Mark Hamill, Harrison Ford, Carrie Fisher",
-      "Plot": "Luke Skywalker joins forces with a Jedi Knight, a cocky pilot, a Wookiee and two droids to save the galaxy from the Empire's world-destroying battle station, while also attempting to rescue Princess Leia from the mysterious Darth Vad",
-      "Language": "English",
-      "Country": "United States, United Kingdom",
-      "Awards": "Won 7 Oscars. 63 wins & 29 nominations total",
-      "Poster": "https://m.media-amazon.com/images/M/MV5BNzVlY2MwMjktM2E4OS00Y2Y3LWE3ZjctYzhkZGM3YzA1ZWM2XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX300.jpg",
+      "Title": "Dumb and Dumber",
+      "Year": "1994",
+      "Rated": "PG-13",
+      "Released": "16 Dec 1994",
+      "Runtime": "107 min",
+      "Genre": "Comedy",
+      "Director": "Peter Farrelly, Bobby Farrelly",
+      "Writer": "Peter Farrelly, Bennett Yellin, Bobby Farrelly",
+      "Actors": "Jim Carrey, Jeff Daniels, Lauren Holly",
+      "Plot": "After a woman leaves a briefcase at the airport terminal, a dumb limo driver and his dumber friend set out on a hilarious cross-country road trip to Aspen to return it.",
+      "Language": "English, Swedish, German",
+      "Country": "United States",
+      "Awards": "5 wins & 3 nominations",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BZDQwMjNiMTQtY2UwYy00NjhiLTk0ZWEtZWM5ZWMzNGFjNTVkXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg",
       "Ratings": [
         {
           "Source": "Internet Movie Database",
-          "Value": "8.6/10"
+          "Value": "7.3/10"
         },
         {
           "Source": "Rotten Tomatoes",
-          "Value": "92%"
+          "Value": "68%"
         },
         {
           "Source": "Metacritic",
-          "Value": "90/100"
+          "Value": "41/100"
         }
       ],
-      "Metascore": "90",
-      "imdbRating": "8.6",
-      "imdbVotes": "1,291,208",
-      "imdbID": "tt0076759",
+      "Metascore": "41",
+      "imdbRating": "7.3",
+      "imdbVotes": "370,412",
+      "imdbID": "tt0109686",
       "Type": "movie",
-      "DVD": "06 Dec 2005",
-      "BoxOffice": "$460,998,507",
+      "DVD": "02 Oct 2001",
+      "BoxOffice": "$127,175,374",
       "Production": "N/A",
       "Website": "N/A",
       "Response": "True",
+      "Watched": "False",
       "id": 1
     },
     {
@@ -80,48 +81,8 @@
       "Production": "N/A",
       "Website": "N/A",
       "Response": "True",
+      "Watched": "False",
       "id": 2
-    },
-    {
-      "Title": "Dumb and Dumber",
-      "Year": "1994",
-      "Rated": "PG-13",
-      "Released": "16 Dec 1994",
-      "Runtime": "107 min",
-      "Genre": "Comedy",
-      "Director": "Peter Farrelly, Bobby Farrelly",
-      "Writer": "Peter Farrelly, Bennett Yellin, Bobby Farrelly",
-      "Actors": "Jim Carrey, Jeff Daniels, Lauren Holly",
-      "Plot": "After a woman leaves a briefcase at the airport terminal, a dumb limo driver and his dumber friend set out on a hilarious cross-country road trip to Aspen to return it.",
-      "Language": "English, Swedish, German",
-      "Country": "United States",
-      "Awards": "5 wins & 3 nominations",
-      "Poster": "https://m.media-amazon.com/images/M/MV5BZDQwMjNiMTQtY2UwYy00NjhiLTk0ZWEtZWM5ZWMzNGFjNTVkXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg",
-      "Ratings": [
-        {
-          "Source": "Internet Movie Database",
-          "Value": "7.3/10"
-        },
-        {
-          "Source": "Rotten Tomatoes",
-          "Value": "68%"
-        },
-        {
-          "Source": "Metacritic",
-          "Value": "41/100"
-        }
-      ],
-      "Metascore": "41",
-      "imdbRating": "7.3",
-      "imdbVotes": "370,412",
-      "imdbID": "tt0109686",
-      "Type": "movie",
-      "DVD": "02 Oct 2001",
-      "BoxOffice": "$127,175,374",
-      "Production": "N/A",
-      "Website": "N/A",
-      "Response": "True",
-      "id": 3
     },
     {
       "Title": "The Big Lebowski",
@@ -162,23 +123,66 @@
       "Production": "N/A",
       "Website": "N/A",
       "Response": "True",
+      "Watched": "False",
+      "id": 3
+    },
+    {
+      "Title": "The Grand Budapest Hotel",
+      "Year": "2014",
+      "Rated": "R",
+      "Released": "28 Mar 2014",
+      "Runtime": "99 min",
+      "Genre": "Adventure, Comedy, Crime",
+      "Director": "Wes Anderson",
+      "Writer": "Stefan Zweig, Wes Anderson, Hugo Guinness",
+      "Actors": "Ralph Fiennes, F. Murray Abraham, Mathieu Amalric",
+      "Plot": "A writer encounters the owner of an aging high-class hotel, who tells him of his early years serving as a lobby boy in the hotel's glorious years under an exceptional concierge.",
+      "Language": "English, French, German",
+      "Country": "United States, Germany",
+      "Awards": "Won 4 Oscars. 134 wins & 226 nominations total",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMzM5NjUxOTEyMl5BMl5BanBnXkFtZTgwNjEyMDM0MDE@._V1_SX300.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "8.1/10"
+        },
+        {
+          "Source": "Rotten Tomatoes",
+          "Value": "92%"
+        },
+        {
+          "Source": "Metacritic",
+          "Value": "88/100"
+        }
+      ],
+      "Metascore": "88",
+      "imdbRating": "8.1",
+      "imdbVotes": "759,503",
+      "imdbID": "tt2278388",
+      "Type": "movie",
+      "DVD": "17 Jun 2014",
+      "BoxOffice": "$59,301,324",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True",
+      "Watched": "False",
       "id": 4
     },
     {
-      "Title": "Wayne's World",
-      "Year": "1992",
-      "Rated": "PG-13",
-      "Released": "14 Feb 1992",
-      "Runtime": "94 min",
-      "Genre": "Comedy, Music",
-      "Director": "Penelope Spheeris",
-      "Writer": "Mike Myers, Bonnie Turner, Terry Turner",
-      "Actors": "Mike Myers, Dana Carvey, Rob Lowe",
-      "Plot": "Two slacker friends try to promote their public-access cable show.",
-      "Language": "English, Cantonese",
-      "Country": "United States",
-      "Awards": "4 wins & 5 nominations",
-      "Poster": "https://m.media-amazon.com/images/M/MV5BMDAyNDY3MjUtYmJjYS00Zjc5LTlhM2MtNzgzYjNlOWVkZjkzL2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SX300.jpg",
+      "Title": "Tropic Thunder",
+      "Year": "2008",
+      "Rated": "R",
+      "Released": "13 Aug 2008",
+      "Runtime": "107 min",
+      "Genre": "Action, Comedy, War",
+      "Director": "Ben Stiller",
+      "Writer": "Justin Theroux, Ben Stiller, Etan Cohen",
+      "Actors": "Ben Stiller, Jack Black, Robert Downey Jr.",
+      "Plot": "Through a series of freak occurrences, a group of actors shooting a big-budget war movie are forced to become the soldiers they are portraying.",
+      "Language": "English, Mandarin",
+      "Country": "United States, United Kingdom, Germany",
+      "Awards": "Nominated for 1 Oscar. 10 wins & 47 nominations total",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BNDE5NjQzMDkzOF5BMl5BanBnXkFtZTcwODI3ODI3MQ@@._V1_SX300.jpg",
       "Ratings": [
         {
           "Source": "Internet Movie Database",
@@ -186,25 +190,25 @@
         },
         {
           "Source": "Rotten Tomatoes",
-          "Value": "78%"
+          "Value": "82%"
         },
         {
           "Source": "Metacritic",
-          "Value": "57/100"
+          "Value": "71/100"
         }
       ],
-      "Metascore": "57",
+      "Metascore": "71",
       "imdbRating": "7.0",
-      "imdbVotes": "152,100",
-      "imdbID": "tt0105793",
+      "imdbVotes": "398,317",
+      "imdbID": "tt0942385",
       "Type": "movie",
-      "DVD": "10 Jul 2001",
-      "BoxOffice": "$121,697,323",
+      "DVD": "18 Nov 2008",
+      "BoxOffice": "$110,515,313",
       "Production": "N/A",
       "Website": "N/A",
       "Response": "True",
+      "Watched": "False",
       "id": 5
     }
-  ],
-  "watched": []
+  ]
 }

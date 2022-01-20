@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", () => {
         })
         .then(res => res.json())
         .then(data => {
-            handleSearch(data)
+            addToQueue(data)
             postMovie(data)
         })
         e.target.reset();
@@ -24,7 +24,7 @@ document.addEventListener("DOMContentLoaded", () => {
 })
 
 
-function handleSearch(movie) {
+function addToQueue(movie) {
     let card = document.createElement('div');
     card.className = 'card';
     document.querySelector("#queue").appendChild(card);
@@ -41,6 +41,7 @@ function handleSearch(movie) {
     cover.className = "poster"
     watchButton.className = "watch-button"
     watchButton.innerText = "Watched?"
+    movie.Watched = "False";
 }
 
 function handleWatch(e) {
@@ -64,17 +65,17 @@ function handleUnwatch(e) {
 }
 
 function renderMovies() {
-    fetch('http://localhost:3000/queue', {
+    fetch('http://localhost:3000/movies', {
         method: "GET",
     })
     .then(res => res.json())
     .then(data => {
-        data.forEach(handleSearch)
+        data.forEach(addToQueue)
     })
 }
 
 function postMovie(movieObj) {
-    fetch('http://localhost:3000/queue', {
+    fetch('http://localhost:3000/movies', {
         method: "POST",
         headers: {
             'Content-Type': 'application/json'
