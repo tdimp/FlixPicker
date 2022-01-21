@@ -1,8 +1,13 @@
 document.addEventListener("DOMContentLoaded", () => {
    renderMovies();
+<<<<<<< HEAD
    let queueArr = [];
     let queue = document.getElementById('queue')
     let watched = document.getElementById('watched')
+=======
+    let queue = document.getElementById('queue');
+    let watched = document.getElementById('watched');
+>>>>>>> 1aa655ca80938a4f58c73bc7cf5351c8e8a58295
     const movieSubmit = document.querySelector('#search');
     movieSubmit.addEventListener("submit", (e) => {
         e.preventDefault();
@@ -22,8 +27,11 @@ document.addEventListener("DOMContentLoaded", () => {
         e.target.reset();
     })
     
+    addRandomButton();
     queue.addEventListener('click', handleWatch)
     watched.addEventListener('click', handleUnwatch)
+    document.addEventListener('click', pickRandomMovie);
+    
 })
 
 
@@ -45,6 +53,20 @@ function addToQueue(movie) {
     watchButton.className = "watch-button"
     watchButton.innerText = "Watched?"
     movie.Watched = "False";
+}
+
+function addRandomButton() {
+    if (queue.childNodes.length <= 3) {
+        let randomButton = document.createElement('button');
+        queue.appendChild(randomButton);
+        randomButton.className = "random-button"
+        randomButton.innerText = "Pick a Flick!"
+    }
+}
+
+function pickRandomMovie() {
+    let movieArr = queue.getElementsByTagName('div');
+    console.log(movieArr)
 }
 
 function handleWatch(e) {
