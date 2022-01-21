@@ -36,6 +36,7 @@ h3 {
     grid-template-columns: repeat(3,10%);
     overflow: auto;
     scroll-behavior: smooth;
+    padding-top: 1rem;
 }
 .card {
     text-align: center;
@@ -79,4 +80,8 @@ h3 {
 
   .random-button {
     display: inline-block;
+  }
+  
+  .movie-list {
+      text-align: left;
   }
