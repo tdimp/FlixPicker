@@ -8,14 +8,14 @@
 </head>
 <body>
     <header>
-        <h1>Welcome to Flix List!</h1>
+        <h1>FlixPicker</h1>
         <h2>Please enter a movie title to add it to your Queue.</h2>
+        <form id="search" action="" method="POST">
+            <input type="text" id="title" name="title" placeholder="Enter Title" required />
+            <input type="submit" id="submit" value="Submit" />
+        </form>
     </header>
-    <form id="search" action="" method="POST">
-        <label for="movieinput">Please enter a movie title </label>
-        <input type="text" id="title" name="title" placeholder="Enter Title" required />
-        <input type="submit" id="submit" value="Submit" />
-    </form>
+    
     <div id="queue" class="container">
         <h2>My Queue</h2>
     </div>

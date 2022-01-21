@@ -59,8 +59,9 @@ function addRandomButton() {
 }
 
 function pickRandomMovie() {
-    let movieArr = queue.getElementsByTagName('div');
-    console.log(movieArr)
+    let movieArr = Array.from(queue.getElementsByTagName('div'));
+    const pick = movieArr[Math.floor(Math.random() * movieArr.length)];
+    console.log(pick.id)
 }
 
 function handleWatch(e) {
