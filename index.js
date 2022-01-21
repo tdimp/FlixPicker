@@ -1,5 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
    renderMovies();
+   let queueArr = [];
     let queue = document.getElementById('queue')
     let watched = document.getElementById('watched')
     const movieSubmit = document.querySelector('#search');
@@ -15,6 +16,8 @@ document.addEventListener("DOMContentLoaded", () => {
         .then(data => {
             addToQueue(data)
             postMovie(data)
+            queueArr.push(data.Title)
+            console.log(queueArr)
         })
         e.target.reset();
     })
