@@ -16,7 +16,7 @@ form {
 }
 
 h1 {
-    color: red;
+    color: rgb(156, 7, 7);
     text-align: center;
     font-size: 72px;
 }
@@ -29,6 +29,10 @@ h2 {
 h3 {
     font-size: 14px;
     color: #FFFFFF
+}
+
+strong {
+    color: rgb(156, 7, 7);
 }
 
 .container {
@@ -46,12 +50,12 @@ h3 {
     height: 15rem;
     display: inline-grid;
     margin: 1rem 1rem;
-    box-shadow: 1px 2px #1417ac;
+    box-shadow: 1px 2px rgb(122, 6, 6);
     flex-direction: column;
   }
 
   .card:hover {
-      background-color: rgb(176, 195, 255);
+      background-color: rgb(128, 128, 128);
   }
 
   .poster {
@@ -80,6 +84,8 @@ h3 {
 
   .random-button {
     display: inline-block;
+    width: 9rem;
+    
   }
   
   .movie-list {

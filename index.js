@@ -2,6 +2,7 @@ document.addEventListener("DOMContentLoaded", () => {
    renderMovies();
     let queue = document.getElementById('queue')
     let watched = document.getElementById('watched')
+
     const movieSubmit = document.querySelector('#search');
     movieSubmit.addEventListener("submit", (e) => {
         e.preventDefault();
@@ -50,8 +51,9 @@ function addToQueue(movie) {
 
 function addRandomButton() {
     if (queue.childNodes.length <= 3) {
+        let header = document.querySelector("header")
         let randomButton = document.createElement('button');
-        queue.appendChild(randomButton);
+        header.appendChild(randomButton);
         randomButton.className = "random-button"
         randomButton.innerText = "Pick a Flick!"
         randomButton.addEventListener('click', pickRandomMovie);
