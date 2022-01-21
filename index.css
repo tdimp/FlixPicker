@@ -55,3 +55,7 @@ h3 {
     border: rgb(122, 6, 6) solid 1px;
     color: rgb(122, 6, 6);
   }
+
+  .random-button {
+    display: inline-block;
+  }
