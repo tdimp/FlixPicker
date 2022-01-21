@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", () => {
     addRandomButton();
     queue.addEventListener('click', handleWatch)
     watched.addEventListener('click', handleUnwatch)
-    randomButton.addEventListener('click', pickRandomMovie);
+    document.addEventListener('click', pickRandomMovie);
     
 })
 
@@ -48,8 +48,8 @@ function addToQueue(movie) {
 }
 
 function addRandomButton() {
-    let randomButton = document.createElement('button');
     if (queue.childNodes.length <= 3) {
+        let randomButton = document.createElement('button');
         queue.appendChild(randomButton);
         randomButton.className = "random-button"
         randomButton.innerText = "Pick a Flick!"
@@ -57,7 +57,8 @@ function addRandomButton() {
 }
 
 function pickRandomMovie() {
-    
+    let movieArr = queue.getElementsByTagName('div');
+    console.log(movieArr)
 }
 
 function handleWatch(e) {
