@@ -63,7 +63,11 @@ function addRandomButton() {
 function pickRandomMovie() {
     let movieArr = Array.from(queue.getElementsByTagName('div'));
     const pick = movieArr[Math.floor(Math.random() * movieArr.length)];
-    console.log(pick.id)
+    const pickCard = document.getElementById(`${pick.id}`).cloneNode(true);
+    let newDiv = document.createElement("div");
+    newDiv.appendChild(pickCard);
+    document.querySelector("header").appendChild(newDiv)
+    
 }
 
 function handleWatch(e) {
