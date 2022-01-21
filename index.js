@@ -1,13 +1,7 @@
 document.addEventListener("DOMContentLoaded", () => {
    renderMovies();
-<<<<<<< HEAD
-   let queueArr = [];
     let queue = document.getElementById('queue')
     let watched = document.getElementById('watched')
-=======
-    let queue = document.getElementById('queue');
-    let watched = document.getElementById('watched');
->>>>>>> 1aa655ca80938a4f58c73bc7cf5351c8e8a58295
     const movieSubmit = document.querySelector('#search');
     movieSubmit.addEventListener("submit", (e) => {
         e.preventDefault();
@@ -30,8 +24,6 @@ document.addEventListener("DOMContentLoaded", () => {
     addRandomButton();
     queue.addEventListener('click', handleWatch)
     watched.addEventListener('click', handleUnwatch)
-    document.addEventListener('click', pickRandomMovie);
-    
 })
 
 
@@ -47,6 +39,7 @@ function addToQueue(movie) {
     card.appendChild(cover);
     card.appendChild(watchButton);
 
+    card.id = `${movie.Title}`
     h3.innerText = `${movie.Title} (${movie.Year})`;
     cover.src = movie.Poster;
     cover.className = "poster"
@@ -61,6 +54,7 @@ function addRandomButton() {
         queue.appendChild(randomButton);
         randomButton.className = "random-button"
         randomButton.innerText = "Pick a Flick!"
+        randomButton.addEventListener('click', pickRandomMovie);
     }
 }
 
@@ -85,7 +79,6 @@ function handleUnwatch(e) {
         document.getElementById("queue").appendChild(queueButton.parentElement);
         queueButton.className = "watch-button"
         queueButton.innerText = "Watched?" 
-        console.log(queueButton)
     }
 }
 
