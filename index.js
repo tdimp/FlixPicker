@@ -16,8 +16,6 @@ document.addEventListener("DOMContentLoaded", () => {
         .then(data => {
             addToQueue(data)
             postMovie(data)
-            queueArr.push(data.Title)
-            console.log(queueArr)
         })
         e.target.reset();
     })
@@ -52,10 +50,11 @@ function addToQueue(movie) {
 function pickRandomMovie() {
     let randomButton = document.querySelector('.random-button');
     randomButton.addEventListener('click', () => {
+        let randomPick = document.getElementById('random-pick')
+        randomPick.innerText = ''
         let movieArr = Array.from(queue.getElementsByTagName('div'));
         const pick = movieArr[Math.floor(Math.random() * movieArr.length)];
         let pickCard = document.getElementById(`${pick.id}`)//.cloneNode(true);
-        let randomPick = document.getElementById('random-pick')
         let pickPoster = pickCard.querySelector("img").cloneNode(true)
         pickPoster.className = "picked-poster"
         randomPick.appendChild(pickPoster);

@@ -293,6 +293,48 @@
       "Response": "True",
       "Watched": "False",
       "id": 7
+    },
+    {
+      "Title": "Star Wars: Episode IV - A New Hope",
+      "Year": "1977",
+      "Rated": "PG",
+      "Released": "25 May 1977",
+      "Runtime": "121 min",
+      "Genre": "Action, Adventure, Fantasy",
+      "Director": "George Lucas",
+      "Writer": "George Lucas",
+      "Actors": "Mark Hamill, Harrison Ford, Carrie Fisher",
+      "Plot": "Luke Skywalker joins forces with a Jedi Knight, a cocky pilot, a Wookiee and two droids to save the galaxy from the Empire's world-destroying battle station, while also attempting to rescue Princess Leia from the mysterious Darth Vad",
+      "Language": "English",
+      "Country": "United States",
+      "Awards": "Won 7 Oscars. 63 wins & 29 nominations total",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BNzVlY2MwMjktM2E4OS00Y2Y3LWE3ZjctYzhkZGM3YzA1ZWM2XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX300.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "8.6/10"
+        },
+        {
+          "Source": "Rotten Tomatoes",
+          "Value": "92%"
+        },
+        {
+          "Source": "Metacritic",
+          "Value": "90/100"
+        }
+      ],
+      "Metascore": "90",
+      "imdbRating": "8.6",
+      "imdbVotes": "1,299,658",
+      "imdbID": "tt0076759",
+      "Type": "movie",
+      "DVD": "06 Dec 2005",
+      "BoxOffice": "$460,998,507",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True",
+      "Watched": "False",
+      "id": 8
     }
   ]
 }
