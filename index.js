@@ -67,6 +67,7 @@ function pickRandomMovie() {
     let newDiv = document.createElement("div");
     newDiv.appendChild(pickCard);
     document.querySelector("header").appendChild(newDiv)
+    console.log(pickCard.querySelector("img"))
     
 }
 
