@@ -54,14 +54,13 @@ function pickRandomMovie() {
     randomButton.addEventListener('click', () => {
         let movieArr = Array.from(queue.getElementsByTagName('div'));
         const pick = movieArr[Math.floor(Math.random() * movieArr.length)];
-        let pickCard = document.getElementById(`${pick.id}`).cloneNode(true);
+        let pickCard = document.getElementById(`${pick.id}`)//.cloneNode(true);
         let randomPick = document.getElementById('random-pick')
-        randomPick.appendChild(pickCard);
-        document.querySelector("header").appendChild(newDiv)
-        console.log(pickCard.querySelector("img"))
+        let pickPoster = pickCard.querySelector("img").cloneNode(true)
+        pickPoster.className = "picked-poster"
+        randomPick.appendChild(pickPoster);
+        //console.log(pickCard.querySelector("img"))
     })
-    
-    
 }
 
 function handleWatch(e) {

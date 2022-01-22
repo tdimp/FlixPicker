@@ -66,6 +66,15 @@ strong {
       width: auto;
   }
 
+  .picked-poster {
+    justify-self: center;
+    object-fit: cover;
+    border: grey solid 0.5px;
+    height: 25rem;
+    width: auto;
+    margin: 2rem;
+  }
+
   button {
       background-color: rgb(122, 6, 6);
       border: grey solid 1px;
