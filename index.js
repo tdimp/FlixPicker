@@ -14,9 +14,13 @@ document.addEventListener("DOMContentLoaded", () => {
         })
         .then(res => res.json())
         .then(data => {
+            if (data.Error) {
+                return alert(data.Error)
+            }
             addToQueue(data)
             postMovie(data)
         })
+        // Further reading: You Don't Know JS
         e.target.reset();
     })
     
@@ -26,8 +30,8 @@ document.addEventListener("DOMContentLoaded", () => {
 })
 
 
-function addToQueue(movie) {
-    let card = document.createElement('div');
+function addToQueue(movie) { // Use object destructuring here
+    let card = document.createElement('div'); // Use innerHTML here to enter HTML string
     card.className = 'card';
     document.querySelector("#queue").appendChild(card);
     let h3 = document.createElement('h3');
