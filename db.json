@@ -1,172 +1,256 @@
 {
   "movies": [
     {
-      "Title": "Dumb and Dumber",
-      "Year": "1994",
+      "Title": "Austin Powers: International Man of Mystery",
+      "Year": "1997",
       "Rated": "PG-13",
-      "Released": "16 Dec 1994",
-      "Runtime": "107 min",
-      "Genre": "Comedy",
-      "Director": "Peter Farrelly, Bobby Farrelly",
-      "Writer": "Peter Farrelly, Bennett Yellin, Bobby Farrelly",
-      "Actors": "Jim Carrey, Jeff Daniels, Lauren Holly",
-      "Plot": "After a woman leaves a briefcase at the airport terminal, a dumb limo driver and his dumber friend set out on a hilarious cross-country road trip to Aspen to return it.",
-      "Language": "English, Swedish, German",
-      "Country": "United States",
-      "Awards": "5 wins & 3 nominations",
-      "Poster": "https://m.media-amazon.com/images/M/MV5BZDQwMjNiMTQtY2UwYy00NjhiLTk0ZWEtZWM5ZWMzNGFjNTVkXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg",
-      "Ratings": [
-        {
-          "Source": "Internet Movie Database",
-          "Value": "7.3/10"
-        },
-        {
-          "Source": "Rotten Tomatoes",
-          "Value": "68%"
-        },
-        {
-          "Source": "Metacritic",
-          "Value": "41/100"
-        }
-      ],
-      "Metascore": "41",
-      "imdbRating": "7.3",
-      "imdbVotes": "370,412",
-      "imdbID": "tt0109686",
-      "Type": "movie",
-      "DVD": "02 Oct 2001",
-      "BoxOffice": "$127,175,374",
-      "Production": "N/A",
-      "Website": "N/A",
-      "Response": "True",
-      "Watched": "False",
-      "id": 1
-    },
-    {
-      "Title": "There Will Be Blood",
-      "Year": "2007",
-      "Rated": "R",
-      "Released": "25 Jan 2008",
-      "Runtime": "158 min",
-      "Genre": "Drama",
-      "Director": "Paul Thomas Anderson",
-      "Writer": "Paul Thomas Anderson, Upton Sinclair",
-      "Actors": "Daniel Day-Lewis, Paul Dano, Ciarán Hinds",
-      "Plot": "A story of family, religion, hatred, oil and madness, focusing on a turn-of-the-century prospector in the early days of the business.",
-      "Language": "English, American Sign ",
-      "Country": "United States",
-      "Awards": "Won 2 Oscars. 116 wins & 137 nominations total",
-      "Poster": "https://m.media-amazon.com/images/M/MV5BMjAxODQ4MDU5NV5BMl5BanBnXkFtZTcwMDU4MjU1MQ@@._V1_SX300.jpg",
-      "Ratings": [
-        {
-          "Source": "Internet Movie Database",
-          "Value": "8.2/10"
-        },
-        {
-          "Source": "Rotten Tomatoes",
-          "Value": "91%"
-        },
-        {
-          "Source": "Metacritic",
-          "Value": "93/100"
-        }
-      ],
-      "Metascore": "93",
-      "imdbRating": "8.2",
-      "imdbVotes": "553,917",
-      "imdbID": "tt0469494",
-      "Type": "movie",
-      "DVD": "08 Apr 2008",
-      "BoxOffice": "$40,222,514",
-      "Production": "N/A",
-      "Website": "N/A",
-      "Response": "True",
-      "Watched": "False",
-      "id": 2
-    },
-    {
-      "Title": "The Grand Budapest Hotel",
-      "Year": "2014",
-      "Rated": "R",
-      "Released": "28 Mar 2014",
-      "Runtime": "99 min",
-      "Genre": "Adventure, Comedy, Crime",
-      "Director": "Wes Anderson",
-      "Writer": "Stefan Zweig, Wes Anderson, Hugo Guinness",
-      "Actors": "Ralph Fiennes, F. Murray Abraham, Mathieu Amalric",
-      "Plot": "A writer encounters the owner of an aging high-class hotel, who tells him of his early years serving as a lobby boy in the hotel's glorious years under an exceptional concierge.",
-      "Language": "English, French, German",
-      "Country": "United States, Germany",
-      "Awards": "Won 4 Oscars. 134 wins & 226 nominations total",
-      "Poster": "https://m.media-amazon.com/images/M/MV5BMzM5NjUxOTEyMl5BMl5BanBnXkFtZTgwNjEyMDM0MDE@._V1_SX300.jpg",
-      "Ratings": [
-        {
-          "Source": "Internet Movie Database",
-          "Value": "8.1/10"
-        },
-        {
-          "Source": "Rotten Tomatoes",
-          "Value": "92%"
-        },
-        {
-          "Source": "Metacritic",
-          "Value": "88/100"
-        }
-      ],
-      "Metascore": "88",
-      "imdbRating": "8.1",
-      "imdbVotes": "759,503",
-      "imdbID": "tt2278388",
-      "Type": "movie",
-      "DVD": "17 Jun 2014",
-      "BoxOffice": "$59,301,324",
-      "Production": "N/A",
-      "Website": "N/A",
-      "Response": "True",
-      "Watched": "False",
-      "id": 3
-    },
-    {
-      "Title": "Star Wars: Episode IV - A New Hope",
-      "Year": "1977",
-      "Rated": "PG",
-      "Released": "25 May 1977",
-      "Runtime": "121 min",
-      "Genre": "Action, Adventure, Fantasy",
-      "Director": "George Lucas",
-      "Writer": "George Lucas",
-      "Actors": "Mark Hamill, Harrison Ford, Carrie Fisher",
-      "Plot": "Luke Skywalker joins forces with a Jedi Knight, a cocky pilot, a Wookiee and two droids to save the galaxy from the Empire's world-destroying battle station, while also attempting to rescue Princess Leia from the mysterious Darth Vad",
+      "Released": "02 May 1997",
+      "Runtime": "89 min",
+      "Genre": "Adventure, Comedy",
+      "Director": "Jay Roach",
+      "Writer": "Mike Myers",
+      "Actors": "Mike Myers, Elizabeth Hurley, Michael York",
+      "Plot": "A world-class playboy and part-time secret agent from the 1960s emerges after thirty years in a cryogenic state to battle with his nemesis Dr. Evil.",
       "Language": "English",
       "Country": "United States",
-      "Awards": "Won 7 Oscars. 63 wins & 29 nominations total",
-      "Poster": "https://m.media-amazon.com/images/M/MV5BNzVlY2MwMjktM2E4OS00Y2Y3LWE3ZjctYzhkZGM3YzA1ZWM2XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX300.jpg",
+      "Awards": "3 wins & 8 nominations",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMWUwMmEwY2QtMGZmZC00ZDVjLTg1NDgtMmI0MmZmYmM4NGIxXkEyXkFqcGdeQXVyMTY5Nzc4MDY@._V1_SX300.jpg",
       "Ratings": [
         {
           "Source": "Internet Movie Database",
-          "Value": "8.6/10"
+          "Value": "7.0/10"
         },
         {
           "Source": "Rotten Tomatoes",
-          "Value": "92%"
+          "Value": "72%"
         },
         {
           "Source": "Metacritic",
-          "Value": "90/100"
+          "Value": "51/100"
         }
       ],
-      "Metascore": "90",
-      "imdbRating": "8.6",
-      "imdbVotes": "1,299,658",
-      "imdbID": "tt0076759",
+      "Metascore": "51",
+      "imdbRating": "7.0",
+      "imdbVotes": "234,317",
+      "imdbID": "tt0118655",
       "Type": "movie",
-      "DVD": "06 Dec 2005",
-      "BoxOffice": "$460,998,507",
+      "DVD": "05 Sep 2000",
+      "BoxOffice": "$53,883,989",
       "Production": "N/A",
       "Website": "N/A",
       "Response": "True",
       "Watched": "False",
-      "id": 4
+      "id": 5
+    },
+    {
+      "Title": "The Fly",
+      "Year": "1986",
+      "Rated": "R",
+      "Released": "15 Aug 1986",
+      "Runtime": "96 min",
+      "Genre": "Drama, Horror, Sci-Fi",
+      "Director": "David Cronenberg",
+      "Writer": "George Langelaan, Charles Edward Pogue, David Cronenberg",
+      "Actors": "Jeff Goldblum, Geena Davis, John Getz",
+      "Plot": "A brilliant but eccentric scientist begins to transform into a giant man/fly hybrid after one of his experiments goes horribly wrong.",
+      "Language": "English",
+      "Country": "United States, Canada",
+      "Awards": "Won 1 Oscar. 7 wins & 10 nominations total",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BODcxMGMwOGEtMDUxMi00MzE5LTg4YTYtYjk1YjA4MzQxNTNlXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX300.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "7.6/10"
+        },
+        {
+          "Source": "Rotten Tomatoes",
+          "Value": "93%"
+        },
+        {
+          "Source": "Metacritic",
+          "Value": "79/100"
+        }
+      ],
+      "Metascore": "79",
+      "imdbRating": "7.6",
+      "imdbVotes": "173,869",
+      "imdbID": "tt0091064",
+      "Type": "movie",
+      "DVD": "04 Oct 2005",
+      "BoxOffice": "$40,456,565",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True",
+      "Watched": "False",
+      "id": 6
+    },
+    {
+      "Title": "The Darjeeling Limited",
+      "Year": "2007",
+      "Rated": "R",
+      "Released": "26 Oct 2007",
+      "Runtime": "91 min",
+      "Genre": "Adventure, Comedy, Drama",
+      "Director": "Wes Anderson",
+      "Writer": "Wes Anderson, Roman Coppola, Jason Schwartzman",
+      "Actors": "Owen Wilson, Adrien Brody, Jason Schwartzman",
+      "Plot": "A year after their father's funeral, three brothers travel across India by train in an attempt to bond with each other.",
+      "Language": "English, Hindi, German, Punjabi, Tibetan, French",
+      "Country": "United States, India",
+      "Awards": "4 wins & 4 nominations",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMTM0MTQ4MTgwOF5BMl5BanBnXkFtZTcwMDA3MDU1MQ@@._V1_SX300.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "7.2/10"
+        },
+        {
+          "Source": "Rotten Tomatoes",
+          "Value": "69%"
+        },
+        {
+          "Source": "Metacritic",
+          "Value": "67/100"
+        }
+      ],
+      "Metascore": "67",
+      "imdbRating": "7.2",
+      "imdbVotes": "193,799",
+      "imdbID": "tt0838221",
+      "Type": "movie",
+      "DVD": "26 Feb 2008",
+      "BoxOffice": "$11,902,715",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True",
+      "Watched": "False",
+      "id": 7
+    },
+    {
+      "Title": "Swallow",
+      "Year": "2019",
+      "Rated": "R",
+      "Released": "05 Jun 2020",
+      "Runtime": "94 min",
+      "Genre": "Drama",
+      "Director": "Carlo Mirabella-Davis",
+      "Writer": "Carlo Mirabella-Davis",
+      "Actors": "Haley Bennett, Austin Stowell, Denis O'Hare",
+      "Plot": "Hunter, a newly pregnant housewife, finds herself increasingly compelled to consume dangerous objects. As her husband and his family tighten their control over her life, she must confront the dark secret behind her new obsession.",
+      "Language": "English, Arabic",
+      "Country": "United States, France",
+      "Awards": "16 wins & 22 nominations",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BYmUxYzAxMTgtNzhjNC00YjI1LTlmMTItOGU0ZmZjZmQ5NmVlXkEyXkFqcGdeQXVyODY3Nzc0OTk@._V1_SX300.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "6.5/10"
+        },
+        {
+          "Source": "Rotten Tomatoes",
+          "Value": "88%"
+        },
+        {
+          "Source": "Metacritic",
+          "Value": "65/100"
+        }
+      ],
+      "Metascore": "65",
+      "imdbRating": "6.5",
+      "imdbVotes": "21,673",
+      "imdbID": "tt8372298",
+      "Type": "movie",
+      "DVD": "06 Mar 2020",
+      "BoxOffice": "$33,419",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True",
+      "Watched": "False",
+      "id": 8
+    },
+    {
+      "Title": "Mean Girls",
+      "Year": "2004",
+      "Rated": "PG-13",
+      "Released": "30 Apr 2004",
+      "Runtime": "97 min",
+      "Genre": "Comedy",
+      "Director": "Mark Waters",
+      "Writer": "Rosalind Wiseman, Tina Fey",
+      "Actors": "Lindsay Lohan, Jonathan Bennett, Rachel McAdams",
+      "Plot": "Cady Heron is a hit with The Plastics, the A-list girl clique at her new school, until she makes the mistake of falling for Aaron Samuels, the ex-boyfriend of alpha Plastic Regina George.",
+      "Language": "English, German, Vietnamese, Swahili",
+      "Country": "United States, Canada",
+      "Awards": "7 wins & 25 nominations",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMjE1MDQ4MjI1OV5BMl5BanBnXkFtZTcwNzcwODAzMw@@._V1_SX300.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "7.0/10"
+        },
+        {
+          "Source": "Rotten Tomatoes",
+          "Value": "84%"
+        },
+        {
+          "Source": "Metacritic",
+          "Value": "66/100"
+        }
+      ],
+      "Metascore": "66",
+      "imdbRating": "7.0",
+      "imdbVotes": "365,428",
+      "imdbID": "tt0377092",
+      "Type": "movie",
+      "DVD": "21 Sep 2004",
+      "BoxOffice": "$86,058,055",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True",
+      "Watched": "False",
+      "id": 9
+    },
+    {
+      "Title": "The Wedding Singer",
+      "Year": "1998",
+      "Rated": "PG-13",
+      "Released": "13 Feb 1998",
+      "Runtime": "97 min",
+      "Genre": "Comedy, Music, Romance",
+      "Director": "Frank Coraci",
+      "Writer": "Tim Herlihy",
+      "Actors": "Adam Sandler, Drew Barrymore, Christine Taylor",
+      "Plot": "Robbie, a singer, and Julia, a waitress, are both engaged, but to the wrong people. Fortune intervenes to help them discover each other.",
+      "Language": "English",
+      "Country": "United States",
+      "Awards": "5 wins & 7 nominations",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BYjM5YTQ0ZGYtMWExZi00MTFmLTg0YjUtZDcyMGNiYzE5MmNmL2ltYWdlXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "6.9/10"
+        },
+        {
+          "Source": "Rotten Tomatoes",
+          "Value": "69%"
+        },
+        {
+          "Source": "Metacritic",
+          "Value": "59/100"
+        }
+      ],
+      "Metascore": "59",
+      "imdbRating": "6.9",
+      "imdbVotes": "146,421",
+      "imdbID": "tt0120888",
+      "Type": "movie",
+      "DVD": "10 May 2005",
+      "BoxOffice": "$80,245,725",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True",
+      "Watched": "False",
+      "id": 10
     }
   ]
 }
